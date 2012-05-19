@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="buildAndDeploy" name="mooby">
+	<property name="version" value="0.0.1"/>
+	<property name="this.project.dir" value="./Routini"></property>
+	<property name="dest.dir" value="K:/Projects/Routini"></property>
+	
+	<target name="buildAndDeploy" depends="help">
+		<echo message="BuildAndDeploy Routini"/>
+		<!--
+		-->
+		<copy todir="${dest.dir}">
+			<fileset file="${this.project.dir}" includes="**/*.*"/>
+		</copy>
+	</target>
+
+	<target name="help">
+		<echo message="Routini build tasks"/>
+		<echo message="Going to copy ${this.project.dir} - to - ${dest.dir}"/>
+	</target>
+	
+	<target name="clean">
+		<delete>
+			<fileset dir="${dest.dir}" includes="*"></fileset>
+		</delete>
+	</target>
+	
+</project>

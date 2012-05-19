@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<events>
+	<timeblock tstart="07:00" tend="">
+		<task title="Tank prüfen"/>
+		<task title="Kleidung anziehen"/>
+		<task title="Bett machen"/>
+	</timeblock>
+	<timeblock tstart="07:15" tend="">
+		<task title="Frühstück, Medz &amp; Vitamine"/>
+		<task title="TV: Times Alive" days="mon,tue,wed,thu,fri"/>
+		<task title="Scope / Science Clips" days="mon"/>
+		<task title="CyberChase" days="tue"/>
+		<task title="BTN / Being Me" days="wed"/>
+		<task title="Backyard Science" days="thu"/>
+		<task title="Classic Tales / Miniscule" days="fri"/>
+		<task title="Food log"/>
+	</timeblock>
+	<timeblock tstart="07:45" tend="">
+		<task title="Geschirr aufräumen"/>
+		<task title="Frühstücksmittel aufräumen"/>
+		<task title="Schalter wischen"/>
+		<task title="Fussboden fagen"/>
+	</timeblock>
+	<timeblock tstart="08:00" tend="">
+		<task title="Zähne putzen"/>
+		<task title="Gesicht wischen"/>
+		<task title="Sonnencreme" months="nov,dec,jan,feb,mar"/>
+		<task title="Haare bursten"/>
+		<task title="Wisch und schliff"/>
+	</timeblock>
+	<timeblock tstart="08:15" tend="">
+		<task title="Aufräumenblitz"/>
+	</timeblock>
+	<timeblock tstart="08:30" tend="">
+		<task title="Spatzieren" days="mon,tue,wed,thu,fri"/>
+		<task title="Drama Snack vorbereiten" days="sat"/>
+		<task title="Lustig machen" days="sun"/>
+	</timeblock>
+	<timeblock tstart="08:40" tend="" days="sat">
+		<task title="Abreisen nach Drama"/>
+	</timeblock>
+
+	<timeblock tstart="09:30" tend="" days="mon,tue,wed,thu,fri">
+		<task title="Schule"/>
+	</timeblock>
+	<timeblock tstart="11:00" tend="" days="mon,tue,wed,thu,fri">
+		<task title="Spielzeit"/>
+	</timeblock>
+	<timeblock tstart="11:30" tend="" days="mon,tue,wed,thu,fri">
+		<task title="Schule"/>
+	</timeblock>
+
+	<timeblock tstart="13:00" tend="">
+		<task title="Mittagessen"/>
+	</timeblock>
+	<timeblock tstart="13:30" tend="">
+		<task title="Schule" days="mon,tue,wed,thu,fri"/>
+		<task title="Gärtnern" days="sat,sun"/>
+	</timeblock>
+	<timeblock tstart="15:00" tend="" days="mon,tue,wed,thu,fri">
+		<task title="Aufräumenblitz"/>
+	</timeblock>
+	<timeblock tstart="15:15" tend="" days="mon,tue,wed,thu,fri">
+		<task title="Snack"/>
+	</timeblock>
+	<timeblock tstart="15:30" tend="" days="mon,tue,wed,thu,fri">
+		<task title="Taekwondo üben"/>
+		<task title="Spielzeit"/>
+	</timeblock>
+	<timeblock tstart="16:30" tend="">
+		<task title="Zimmer aufräumen"/>
+		<task title="Wisch und schliff"/>
+	</timeblock>
+	<timeblock tstart="17:00" tend="">
+		<task title="Hände waschen"/>
+		<task title="Tisch decken"/>
+		<task title="Abendessen kochen"/>
+	</timeblock>
+	<timeblock tstart="17:30" tend="">
+		<task title="Abendessen"/>
+	</timeblock>
+	<timeblock tstart="18:00" tend="">
+		<task title="Geschirr"/>
+		<task title="Abendessensmittel aufräumen"/>
+		<task title="Tischli wischen"/>
+	</timeblock>
+	<timeblock tstart="18:15" tend="">
+		<task title="Wäsche in W.Küche"/>
+		<task title="Saubere Kleidung weg"/>
+		<task title="Kleidung für Morgen"/>
+		<task title="Bade oder Douche"/>
+	</timeblock>
+	<timeblock tstart="18:45" tend="">
+		<task title="Pyjama anziehen"/>
+		<task title="Medz &amp; Vitamine"/>
+		<task title="Zähne bürsten"/>
+		<task title="Tank prüfen"/>
+		<task title="Haare bürsten"/>
+	</timeblock>
+	<timeblock tstart="19:00" tend="">
+		<task title="Geschichte"/>
+	</timeblock>
+	<timeblock tstart="19:30" tend="">
+		<task title="Schlafen"/>
+	</timeblock>
+</events>

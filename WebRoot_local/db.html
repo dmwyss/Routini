@@ -1,0 +1,82 @@
+<!-- WEBKIT SAMPLE -->
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset="UTF-8" />
+<style type="text/css">
+
+</style>
+<script type="text/javascript">
+/*
+var db = openDatabase(
+	'contacts'
+	,'1.0','my contacts app'
+	, 2 * 1024);
+
+
+
+//Create the contacts table
+db.transaction(function(tx) {
+  tx.executeSql(
+  'CREATE TABLE IF NOT EXISTS contacts(id integer primary key autoincrement, name, number)');
+});
+
+function insertRow(_name,_number){
+db.transaction(function(tx) {
+  tx.executeSql('INSERT INTO contacts (firstname,lastname,phonenumber) 
+VALUES (?,?)',[_name,_number], function(tx) {
+    //Success callback get executed if the INSERT statement worked well
+    //Get the last contact we just added and dynamically add it to the table displaying the contacts
+alert("success");
+  });
+});
+}
+*/
+var db;
+
+function wake(){
+if (window.openDatabase) {
+trace("bazinga");
+try {
+db = openDatabase(
+	'contacts'
+	,'1.0'
+	,'my contacts app'
+	, 200000);
+} catch (err){
+trace("error creating DB" + err);
+}
+if(!db){
+trace("failed");
+}
+trace("fin");
+
+} else {
+trace("bap baww");
+}
+}
+
+function trace(sOut){
+var d = document;
+var t = d.getElementById("areaDebug");
+e = t.innerHTML;
+t.innerHTML = e + "<br>&bull;" + sOut;
+}
+
+function doOnLoad(){
+//insertRow("nn","123");
+wake();
+trace("finished onload");
+}
+
+</script>
+        
+    </head>
+    <body onload="doOnLoad();">
+        <div id="view" style="">
+            <div id="areaDebug">
+
+            </div>
+        </div>
+    </body>
+</html>

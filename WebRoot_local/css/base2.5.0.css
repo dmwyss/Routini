@@ -1,0 +1,128 @@
+
+
+body {
+	font-family: Helvetica, Arial;
+	background: #1D1D1D url("../img/imgIKwonDo_cloth00.JPG") repeat;
+	box-shadow: inset -5pt -5pt 20pt 0pt #000;
+	-webkit-box-shadow: inset -5pt -5pt 20pt 0pt #000;
+	margin: 0;
+}
+
+.navtable-blockWrapper {
+	box-shadow: 4px 4px 7px #000;
+	-webkit-box-shadow: 4px 4px 7px #000;
+	border-radius: 8pt 8pt 8pt 8pt;
+	margin-left:15pt;
+	margin-right:15pt;
+}
+
+.navtable-blockWrapper div {
+	XXXbackground-color: #FFF;
+}
+
+div.navTable-rowTop {
+	color: white;
+	XXXbackground-color: red;
+	border-radius: 8pt 8pt 0 0;
+	font-weight:bold;
+	padding: 4pt 7pt;
+}
+
+.navTable-row, .navTable-rowBottom {
+	color: #DDD;
+	padding: 4pt;
+	background-color:#222222;
+	XXXborder-top: 1pt dashed #FFF000;
+	border-left: 1pt solid #333;
+}
+
+.navTable-row {
+	border-bottom: 1pt dashed #333;
+}
+
+.navTable-rowBottom {
+	border-radius: 0 0 8pt 8pt;
+}
+
+.navTable-rowHead {
+	padding:0 !important;
+	font-weight: bold;
+}
+
+
+.navTable-rowDetail {
+	padding:0;
+}
+
+.navTable-row {
+
+}
+
+.navFoot-wrapper {
+	color: #CCC;
+	background-color: black;
+	XXXborder-top:1pt solid #444;
+}
+.rhWhite {
+	background-color:#CCD;
+	background: -moz-linear-gradient(top, #F8F8FF, #99B);
+	background: -webkit-gradient(linear, left top, left bottom, from(#F8F8FF), to(#99B));
+	text-shadow: 1pt 1pt 3pt #222;
+}
+.rhYellow {
+	background-color:#F90;
+	background: -moz-linear-gradient(top, #EC2, #F70);
+	background: -webkit-gradient(linear, left top, left bottom, from(#EC2), to(#F70));
+	text-shadow: 1pt 1pt 1pt #830;
+}
+.rhOrange {
+	background-color:#F90;
+	background: -moz-linear-gradient(top, #EC2, #F90);
+	background: -webkit-gradient(linear, left top, left bottom, from(#EC2), to(#F90));
+}
+.rhBlue {
+	background-color:#14B;
+	background: -moz-linear-gradient(top, #2AE, #03C);
+	background: -webkit-gradient(linear, left top, left bottom, from(#2AE), to(#03C));
+}
+.rhRed {
+	background-color:#900;
+	background: -moz-linear-gradient(top, #F11, #800);
+	background: -webkit-gradient(linear, left top, left bottom, from(#F11), to(#900));
+}
+.rhBlack {
+	background-color:#111;
+	background: -moz-linear-gradient(top, #44444F, #08090F, #000, #111);
+	background: -moz-linear-gradient(top, #55555F, #333335, #000000 #000000, #08080F);
+	background: -webkit-gradient(linear, left top, left bottom, from(#55555F), color-stop(0.3, #333335), color-stop(0.6, #333335), to(#08080F));
+}
+
+a {
+	text-decoration:none;
+	color:silver;
+}
+.navFoot-spaceReplacer, .navFoot-wrapper  {
+	height:36pt;
+}
+.navFoot-wrapper {
+	position:fixed;
+	bottom:0px;
+	background: #000 url("../img/imgBgNavBar.jpg") repeat-x;
+	width:100%;
+}
+
+.navFoot-item {
+	font-size:8pt;
+	XXXborder:1pt dotted silver;
+	height: 32pt;
+	width: 50pt;
+	float:left;
+	text-align:center;
+	color:silver;
+	margin:0 0 0 47pt;
+	cursor: pointer;
+}
+.navFoot-item img {
+	width:18pt;
+	padding: 3pt 0 0 0;
+}

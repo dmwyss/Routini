@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<events>
+	<timeblock tstart="07:30" tend="" hours="am">
+		<task title="Geschirr aufräumen"/>
+		<task title="Frühstücksmittel aufräumen"/>
+		<task title="Schalter wischen"/>
+		<task title="Fussboden fagen"/>
+	</timeblock>
+	<timeblock tstart="07:45" hours="am">
+		<task title="Zähne putzen"/>
+		<task title="Gesicht wischen"/>
+		<task title="Sonnencreme" months="nov,dec,jan,feb,mar"/>
+		<task title="Haare bursten"/>
+		<task title="Wisch und schliff"/>
+		<task title="Pflanzen giessen"/>
+	</timeblock>
+	<timeblock tstart="08:00" hours="am">
+		<task title="Aufräumenblitz"/>
+	</timeblock>
+	<timeblock tstart="08:30" tend="8:30" hours="am">
+		<task title="Utinni!"/>
+	</timeblock>
+	<timeblock tstart="18:00" tend="" hours="pm">
+		<task title="Geschirr aufräumen"/>
+		<task title="Zubehör aufräumen"/>
+		<task title="Tischli wischen"/>
+		<task title="David tish" person="david"/>
+	</timeblock>
+	<timeblock tstart="18:45" tend="" hours="pm">
+		<task title="Pyjama anziehen"/>
+		<task title="Medz &amp; Vitamine"/>
+		<task title="Zähne bürsten"/>
+		<task title="Tank prüfen"/>
+		<task title="Haare bürsten"/>
+	</timeblock>
+	<timeblock tstart="19:00" tend="19:30" hours="pm">
+		<task title="Kebee&apos;oto"/>
+	</timeblock>
+
+
+
+
+	<!-- Time blocks for David only. Append "?person=david" to the URL to show these. -->
+	<timeblock tstart="07:30" person="david">
+		<task title="Escitalopram x 1"/>
+		<task title="Panadol x 2"/>
+		<task title="Diclofenac x 1"/>
+		<task title="Oxycontin x 1 or 2"/>
+		<task title="Preprep dinner" days="sat"/>
+		<task title="Meeting schnacks" days="sat"/>
+	</timeblock>
+	<timeblock tstart="08:00" person="david">
+		<task title="Check ToDo"/>
+	</timeblock>
+	<timeblock tstart="12:30" person="david">
+		<task title="Panadol x 2"/>
+		<task title="Diclofenac x 1"/>
+	</timeblock>
+	<timeblock tstart="12:45" person="david">
+		<task title="Meeting setting"/>
+	</timeblock>
+	<timeblock tstart="19:30" person="david">
+		<task title="Panadol x 2"/>
+		<task title="Diclofenac x 1"/>
+		<task title="Oxycontin x 1 or 2"/>
+		<task title="Bins out" days="mon"/>
+	</timeblock>
+	<timeblock tstart="21:30" person="david">
+		<task title="Panadol x 2"/>
+	</timeblock>
+
+
+
+
+
+</events>
